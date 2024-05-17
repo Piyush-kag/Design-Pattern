@@ -39,3 +39,13 @@ w
 Gsrc/main/java/org/designpattern/decorator/EncryptedStreamDecorator.java,6/e/6e20c1ab839467ebeaf963e268d1832b79e27843
 y
 Isrc/main/java/org/designpattern/decorator/RemoveSpaceStreamDecorator.java,6/c/6cc8508596af5836fae0cbdab077ce0a066da4f6
+g
+7src/main/java/org/designpattern/adapter/Assignment.java,c/f/cf04ad18c5304d67313cf97e200d800eb4fa916e
+k
+;src/main/java/org/designpattern/adapter/AssignmentWork.java,2/a/2a2c4d391d26177fa80ff82574ab89c310370dbc
+`
+0src/main/java/org/designpattern/adapter/Pen.java,6/d/6d5baab692c498e4ba5005291b220c18dd13c719
+e
+5src/main/java/org/designpattern/adapter/PilotPen.java,d/a/da086ca485d1fb9e56e5716359a40ed87e40156d
+g
+7src/main/java/org/designpattern/adapter/PenAdapter.java,5/b/5b08f6b40c90f3b6b3e277e16ad0f47a3a238dd8

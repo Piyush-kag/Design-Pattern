@@ -1,5 +1,8 @@
 package org.designpattern;
 
+import org.designpattern.adapter.AssignmentWork;
+import org.designpattern.adapter.Pen;
+import org.designpattern.adapter.PenAdapter;
 import org.designpattern.decorator.CloudStream;
 import org.designpattern.decorator.CompressedStreamDecorator;
 import org.designpattern.decorator.EncryptedStreamDecorator;
@@ -54,12 +57,20 @@ public class Main {
 //        System.out.println("Video removed from the field");
 
 
-        Stream stream = new CloudStream();
-        stream = new CompressedStreamDecorator(stream);
-        stream = new EncryptedStreamDecorator(stream);
-        stream = new RemoveSpaceStreamDecorator(stream);
+//        Stream stream = new CloudStream();
+//        stream = new CompressedStreamDecorator(stream);
+//        stream = new EncryptedStreamDecorator(stream);
+//        stream = new RemoveSpaceStreamDecorator(stream);
+//
+//        // Perform the action
+//        stream.write("This is the data");
 
-        // Perform the action
-        stream.write("This is the data");
+
+
+        //Adapter Pattern
+        Pen pen = new PenAdapter();
+        AssignmentWork assignmentWork = new AssignmentWork();
+        assignmentWork.setPen(pen);
+        pen.write("I am going to write this assignment on monday.");
     }
 }
