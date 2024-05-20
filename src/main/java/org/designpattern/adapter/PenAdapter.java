@@ -7,3 +7,4 @@ public class PenAdapter implements Pen{
         pilotPen.mark(string);
     }
 }
+    

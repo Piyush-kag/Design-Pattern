@@ -1,4 +1,4 @@
-package org.designpattern.decorator;
+package org.designpattern.decorator1;
 
 public class RemoveSpaceStreamDecorator implements Stream{
     private Stream stream;

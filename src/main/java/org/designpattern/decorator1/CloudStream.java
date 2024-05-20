@@ -1,4 +1,4 @@
-package org.designpattern.decorator;
+package org.designpattern.decorator1;
 
 public class CloudStream implements Stream{
     public void write(String data){

@@ -1,4 +1,4 @@
-package org.designpattern.decorator;
+package org.designpattern.decorator1;
 
 public class CompressedStreamDecorator implements Stream{
     private Stream stream;
