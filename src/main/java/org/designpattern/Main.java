@@ -4,6 +4,8 @@ import org.designpattern.decorator2.Coffee;
 import org.designpattern.decorator2.MilkDecorator;
 import org.designpattern.decorator2.NormalCoffee;
 import org.designpattern.decorator2.SugarDecorator;
+import org.designpattern.memento.Game;
+import org.designpattern.memento.GameKeeper;
 
 import static java.lang.System.*;
 
@@ -64,21 +66,45 @@ public class Main {
         //        stream.write("This is the data");
 
         //Decorator pattern - 2 = COFFEE SHOP.
-        Coffee coffee = new NormalCoffee();
-        out.println("Description: " + coffee.getDescription() + " | Cost: $" + coffee.cost());
+//        Coffee coffee = new NormalCoffee();
+//        out.println("Description: " + coffee.getDescription() + " | Cost: $" + coffee.cost());
 
         // Adding Milk
-        coffee = new MilkDecorator(coffee);
-        out.println("Description: " + coffee.getDescription() + " | Cost: $" + coffee.cost());
+//        coffee = new MilkDecorator(coffee);
+//        out.println("Description: " + coffee.getDescription() + " | Cost: $" + coffee.cost());
 
         //Adding Sugar
-        coffee = new SugarDecorator(coffee);
-        out.println("Description: " + coffee.getDescription() + " | Cost: $" + coffee.cost());
+//        coffee = new SugarDecorator(coffee);
+//        out.println("Description: " + coffee.getDescription() + " | Cost: $" + coffee.cost());
 
         //Adapter Pattern
         //        Pen pen = new PenAdapter();
         //        AssignmentWork assignmentWork = new AssignmentWork();
         //        assignmentWork.setPen(pen);
         //        pen.write("I am going to write this assignment on monday.");
+
+        //Memento Pattern
+        Game game = new Game();
+        GameKeeper gameKeeper = new GameKeeper(game);
+
+        game.setPlayerPosition(1);
+        game.setPlayerScore(100);
+        gameKeeper.saveGame();
+        out.println("Game State: " + gameKeeper.getGameState());
+
+        game.setPlayerPosition(2);
+        game.setPlayerScore(200);
+        gameKeeper.saveGame();
+        out.println("Game State: " + gameKeeper.getGameState());
+
+        game.setPlayerPosition(3);
+        game.setPlayerScore(300);
+        out.println("Game State: " + gameKeeper.getGameState());
+
+        gameKeeper.restoreGame();
+        out.println("After Restore: " + gameKeeper.getGameState());
+
+        gameKeeper.restoreGame();
+        out.println("After Restore: " + gameKeeper.getGameState());
     }
 }
