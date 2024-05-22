@@ -1,7 +1,18 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(­à†Õûÿÿÿÿ8±ÎÙ¤ù1
-X	java:S125"<This block of commented-out lines of code should be removed.(ÇŸàÌ8±ÎÙ¤ù1
-X	java:S125"<This block of commented-out lines of code should be removed.(»è‰8±ÎÙ¤ù1
-X	java:S125&"<This block of commented-out lines of code should be removed.(¦şÅ€8±ÎÙ¤ù1
-]	java:S125:"<This block of commented-out lines of code should be removed.(ï¯—ûúÿÿÿÿ8±ÎÙ¤ù1
-]	java:S125O"<This block of commented-out lines of code should be removed.(Ã¨ù´ıÿÿÿÿ8²ÎÙ¤ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(­à†Õûÿÿÿÿ8±ÎÙ¤ù1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÇŸàÌ8±ÎÙ¤ù1
+X	java:S125"<This block of commented-out lines of code should be removed.(»è‰8±ÎÙ¤ù1
+X	java:S125("<This block of commented-out lines of code should be removed.(¦şÅ€8±ÎÙ¤ù1
+]	java:S125<"<This block of commented-out lines of code should be removed.(ï¯—ûúÿÿÿÿ8±ÎÙ¤ù1
+X	java:S125E"<This block of commented-out lines of code should be removed.(¡ÿöÒ8ó¶ìÔù1
+]	java:S125I"<This block of commented-out lines of code should be removed.(×…•Ğüÿÿÿÿ8ó¶ìÔù1
+X	java:S125M"<This block of commented-out lines of code should be removed.(÷–õ 8ó¶ìÔù1
+]	java:S125Q"<This block of commented-out lines of code should be removed.(Ã¨ù´ıÿÿÿÿ8²ÎÙ¤ù1
+]
+java:S1128"@Remove this unused import 'org.designpattern.decorator2.Coffee'.(Ûšø8ù¢Õù1
+i
+java:S1128"GRemove this unused import 'org.designpattern.decorator2.MilkDecorator'.(²¢ûŠøÿÿÿÿ8‘ù¢Õù1
+h
+java:S1128"FRemove this unused import 'org.designpattern.decorator2.NormalCoffee'.(èÂœşøÿÿÿÿ8‘ù¢Õù1
+e
+java:S1128"HRemove this unused import 'org.designpattern.decorator2.SugarDecorator'.(Àş—İ8‘ù¢Õù1

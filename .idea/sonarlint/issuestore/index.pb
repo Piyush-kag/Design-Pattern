@@ -27,20 +27,6 @@ y
 Isrc/main/java/org/designpattern/command/videoeditor/UndoVideoCommand.java,b/3/b30e86e73f29b40a52854e899c261c0f35bf37b7
 {
 Ksrc/main/java/org/designpattern/command/videoeditor/AddContrastOnVideo.java,c/5/c5221ba1c7468e67d2dbeaea584f1dda65cfdd2d
-j
-:src/main/java/org/designpattern/decorator/CloudStream.java,7/2/724a2a562c1f7dbb3863f7dd660df0bfe19ef934
-e
-5src/main/java/org/designpattern/decorator/Stream.java,a/0/a087abe47ec230616bd70c63fcf1b0676c38afd2
-n
->src/main/java/org/designpattern/decorator/StreamDecorator.java,7/0/704eac063d565bf05aa47dd325dd6b40ad9a7c57
-x
-Hsrc/main/java/org/designpattern/decorator/CompressedStreamDecorator.java,9/d/9dd340e338b7d77f2e4561e00fc13321f990e434
-w
-Gsrc/main/java/org/designpattern/decorator/EncryptedStreamDecorator.java,6/e/6e20c1ab839467ebeaf963e268d1832b79e27843
-y
-Isrc/main/java/org/designpattern/decorator/RemoveSpaceStreamDecorator.java,6/c/6cc8508596af5836fae0cbdab077ce0a066da4f6
-g
-7src/main/java/org/designpattern/adapter/Assignment.java,c/f/cf04ad18c5304d67313cf97e200d800eb4fa916e
 k
 ;src/main/java/org/designpattern/adapter/AssignmentWork.java,2/a/2a2c4d391d26177fa80ff82574ab89c310370dbc
 `
@@ -59,8 +45,6 @@ o
 ?src/main/java/org/designpattern/decorator2/CoffeeDecorator.java,4/b/4b1cf8eb83ebab262b88017ce05ddb47f1ac5dbe
 m
 =src/main/java/org/designpattern/decorator2/MilkDecorator.java,5/4/54341260eeabf2b9b5ae4238643937feedd801e6
-t
-Dsrc/main/java/org/designpattern/decorator2/WippedCreamDecorator.java,3/1/3143e8de712223903f5a3538cb4234cf1386fe88
 n
 >src/main/java/org/designpattern/decorator2/SugarDecorator.java,6/c/6c6db3a8bd81e237ae12c89245cf8820a3016967
 u
@@ -68,3 +52,11 @@ Esrc/main/java/org/designpattern/decorator2/WhippedCreamDecorator.java,b/c/bc5c
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+h
+8src/main/java/org/designpattern/memento/GameMemento.java,0/2/02315103afc66c31d655aff9a6bb3089aec2e1b7
+a
+1src/main/java/org/designpattern/memento/Game.java,3/1/31f96745001758cf41f97ca1e35ef34776b87392
+g
+7src/main/java/org/designpattern/memento/GameKeeper.java,9/9/99c472a766c1d57d77b1c49c2208db39b2bee789
+k
+;src/main/java/org/designpattern/decorator1/CloudStream.java,7/9/79b56724266407139cd2f6c2ce989b5a02c3ed2a
